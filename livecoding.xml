@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs title="Live Coding">
+    <Require feature="rpc"/>
+    <Require feature="views"/>
+  </ModulePrefs>
+  <Content type="html"><![CDATA[
+    <script type="text/javascript" src="https://hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.0"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">google.load("jquery", "1.7");</script>
+    <script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/livecoding1/contrib/codemirror/codemirror-min.js"></script>
+    <script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/livecoding1/livecoding.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/livecoding1/contrib/codemirror/codemirror.css" />
+    <link type="text/css" rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/livecoding1/static/css/theme/ambiance.css" />
+    <link type="text/css" rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/livecoding1/static/css/theme/blackboard.css" />
+    <link type="text/css" rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/livecoding1/static/css/theme/cobalt.css" />
+    <link type="text/css" rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/livecoding1/static/css/theme/eclipse.css" />
+    <link type="text/css" rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/livecoding1/static/css/theme/elegant.css" />
+    <link type="text/css" rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/livecoding1/static/css/theme/lesser-dark.css" />
+    <link type="text/css" rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/livecoding1/static/css/theme/monokai.css" />
+    <link type="text/css" rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/livecoding1/static/css/theme/neat.css" />
+    <link type="text/css" rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/livecoding1/static/css/theme/night.css" />
+    <link type="text/css" rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/livecoding1/static/css/theme/rubyblue.css" />
+    <link type="text/css" rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/livecoding1/static/css/theme/xq-dark.css" />
+  ]]></Content>
+</Module>
